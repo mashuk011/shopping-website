@@ -1,0 +1,1519 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- fonts awesome 6 CDN  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- css link,  owl carousel -->
+
+    <link rel="stylesheet" href="./css/owl.carousel.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/owl.carousel.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./css/animate.css">
+
+    <title>Shopping website</title>
+
+</head>
+
+<body onload="myFunction()">
+
+    <div id="preloader"></div>
+
+    <!-- ==========================================
+        Our Top Header 
+    ============================================ -->
+
+    <section class="top-header-sec">
+        <div class="common-container">
+
+            <div class="top-mail-info-main-box">
+
+                <div class="support-mail-info-box">
+
+                    <div class="mail-box">
+                        <ion-icon name="mail-outline" class="mail-icon"></ion-icon>
+                        <a href="#" class="mail-text">support@example.com</a>
+                    </div>
+
+                    <div class="top-ad-box mail-box">
+                        <ion-icon name="globe-outline" class="ad-ico mail-icon"></ion-icon>
+                        <span class="ad-text ">Kleine Pierbard 8-6 2249 KV Vries </span>
+                    </div>
+
+                </div>
+
+                <div class="top-soc-ico-info-box mail-box">
+
+                    <div class="soc-icon-box">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </div>
+
+                    <div class="soc-icon-box">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </div>
+
+
+                    <div class="soc-icon-box">
+                        <ion-icon name="logo-vimeo"></ion-icon>
+                    </div>
+
+                    <div class="soc-icon-box">
+                        <ion-icon name="logo-google"></ion-icon>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ==========================================
+        Our Navbar  
+    ============================================ -->
+
+    <section class="header ">
+        <div class="common-container navbar-flex">
+
+            <div class="nav-logo-box">
+                <a href="./index.html">
+                    <img src="./images/nav-logo.png" alt="">
+
+                </a>
+            </div>
+
+            <div class="main-navbar">
+                <div class="nav-overlay"></div>
+                <div class="navbar">
+                    <nav class="nav">
+                        <div class="nav-lists">
+
+                            <img src="./images/mobile-logo.png" class="mobile-logo" alt="">
+
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./about.html">About</a></li>
+                            <li><a href="./shop.html">Shop</a> </li>
+                            <li><a href="./service.html">Services</a></li>
+                            <li><a href="./blog.html">Blog</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+
+                            <div class="mobile-contact-info">
+                                <h6>Contact Info</h6>
+                                <p>123, Subhash Park Delhi - <br /> 110059 Azad Colony ..</p>
+                                <p>+91 9971464759</p>
+                                <p>info@example.com</p>
+                            </div>
+
+                        </div>
+                    </nav>
+
+
+                </div>
+
+                <div class="mobile-nav-btun">
+
+                    <div class="open-menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <div class="close-menu open-menu">
+                        <i class="fa-regular fa-circle-xmark"></i>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="top-rating-search-fav-list-box">
+
+                <div class="n-icon-box search-button">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <div class="n-icon-box">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+
+                <div class="n-icon-box">
+                    <a href="./signin.html">
+                    <i class="fa-regular fa-user"></i>
+                </a>
+                </div>
+
+                <div class="n-icon-box shopping-cart">
+                    <a href="./Cart.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                    <div class="cart-num">
+                        <span>3</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+     <!-- search bar box -->
+
+     <section class=" search-bar-sec">
+        <div class="common-container-2">
+
+            <div class="search-bar-main-box">
+
+                <div class="serch-close-btun">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                
+                <div class="seach-inp-box">
+                    <input type="search" name="search" id="search" placeholder="Seach Here ..">
+                </div>
+
+                <button class="search-btn-o">
+                    Seach Now!
+                </button>
+            </div>
+
+            <div class="seach-text-head">
+                <h6>RECENT SEARCH KEYWORDS</h6>
+            </div>
+
+            <div class="seach-links-boxes">
+
+                <div class="ser-link-box">
+                    <a href="#">
+                        Finance
+                    </a>
+                </div>
+
+                <div class="ser-link-box">
+                    <a href="#">
+                        Idea
+                    </a>
+                </div>
+
+                <div class="ser-link-box">
+                    <a href="#">
+                        Service
+                    </a>
+                </div>
+
+                <div class="ser-link-box">
+                    <a href="#">
+                        Growth
+                    </a>
+                </div>
+
+                <div class="ser-link-box">
+                    <a href="#">
+                        plan
+                    </a>
+                </div>
+                
+            </div>
+            
+        </div>
+    </section>
+    
+    
+    
+    
+
+    <!-- ==========================================
+        Our Common Banner Page  
+    ============================================ -->
+
+    <section class="common-page-sec about-page-title">
+        <div class="common-container">
+
+            <div class="about-page-title common-page-title">
+
+                <h3>Our Shopping Page</h3>
+                <div class="link-box">
+                    <div class="main-page-link">
+                        <a href="./index.html">Home</a>
+                    </div>
+
+                    <div class="title-page-text">
+                        <p> / Our Shopping Page</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- ==========================================
+        Our Shopping items Page  
+    ============================================ -->
+
+    <section class="shopping-page-sec">
+        <div class="common-container">
+
+            <div class="shopping-page-grid grid">
+
+                <div class="left-filterable-items-button-seachbar">
+
+                    <div class="filter-search-bar-box">
+                        <input type="text" class="form-control" name="search" id="search" placeholder="Search..">
+                        <div class="search-icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+
+                    <div class="shop-categ-filter-buttons">
+
+                        <h3 class="common-name">Shop by Categories</h3>
+
+                        <div class="shop-cat-filt-button-box common-filt-btun " data-filter="all">
+                            All
+                        </div>
+
+                        <div class="shop-cat-filt-button-box common-filt-btun " data-filter="women">
+                            Women's Clothing (5)
+                        </div>
+
+                        <div class="shop-cat-filt-button-box common-filt-btun" data-filter="menfashion">
+                            Man Fashion (2)
+                        </div>
+
+                        <div class="shop-cat-filt-button-box common-filt-btun" data-filter="kids">
+                            Kid's Clothing (1)
+                        </div>
+
+                        <div class="shop-cat-filt-button-box common-filt-btun" data-filter="bagshoes">
+                            Bags & Shoes (3)
+                        </div>
+
+                        <div class="shop-cat-filt-button-box common-filt-btun" data-filter="electronic">
+                            Electronics (1)
+                        </div>
+
+                        <div class="shop-cat-filt-button-box common-filt-btun" data-filter="others">
+                            Others (6)
+                        </div>
+
+                    </div>
+
+                    <div class="shop-size-filter-buttons-main-box">
+
+                        <h3 class="common-name">Shop by Size</h3>
+
+                        <div class="shop-size-filt-button common-filt-btun" data-filter="large">
+                            L Large
+                        </div>
+
+                        <div class="shop-size-filt-button common-filt-btun" data-filter="extralarge">
+                            XL Extra Large
+                        </div>
+
+                        <div class="shop-size-filt-button common-filt-btun" data-filter="small">
+                            S Small
+                        </div>
+
+                        <div class="shop-size-filt-button common-filt-btun" data-filter="medium">
+                            M Medium
+                        </div>
+
+                    </div>
+
+                    <div class="shop-colors-filter-buttons-main-box">
+
+                        <h3 class="common-name">Shop by Colors</h3>
+
+                        <div class="shop-colo-filt-button black-col common-filt-btun" data-filter="black">
+                            Black (3)
+                        </div>
+                        <div class="shop-colo-filt-button blue-col common-filt-btun" data-filter="blue">
+                            Blue (5)
+                        </div>
+                        <div class="shop-colo-filt-button green-col common-filt-btun" data-filter="green">
+                            Green (2)
+                        </div>
+                        <div class="shop-colo-filt-button orang-col common-filt-btun" data-filter="orang">
+                            Orange (7)
+                        </div>
+                        <div class="shop-colo-filt-button purp-col common-filt-btun" data-filter="purp">
+                            Purple (1)
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="right-prouct-items-main-box">
+
+                    <div class="showing-prod-item-pages-grid-block-syst-cat-select-box-man-part">
+
+                        <div class="left-showing-pages-item">
+                            <p>Showing 1–12 of 50 Results</p>
+                        </div>
+
+                        <div class="sort-cat-select-main-box-flex">
+
+                            <div class="selector-box">
+                                <div class="selector">
+                                    <p class="textPara">Popularity</p>
+                                    <div class="arrow-icono">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </div>
+                                </div>
+
+                                <div class="options-box">
+                                    <li class="op-list" data-filter="popularity">Popularity</li>
+                                    <li class="op-list" data-filter="newcollection">New Collection</li>
+                                    <li class="op-list" data-filter="topsell">Top Sell</li>
+                                    <li class="op-list" data-filter="toprated">Top Rated</li>
+
+                                </div>
+
+                            </div>
+
+                            <div class="grid-block-list-main-box">
+
+                                <div class="active grid-block-box grid-btun">
+                                    <i class="fa-solid fa-grip-vertical"></i>
+                                </div>
+
+                                <div class="grid-block-box list-btun">
+                                    <i class="fa-solid fa-list-ul"></i>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="main-shopping-grid-block-list-sec">
+
+                        <div class=" active shopping-page-products-grid grid grid-three-col common-container-4 ">
+
+                            <div class="product-box shop-item s-items" data-title="shirt" data-item="menfashion"
+                                data-name="newcollection" data-color="black" data-label="large">
+                                <div class="prod-img">
+                                    <img src="./images/shop-1.jpg" alt="">
+
+                                    <div class="cart-heart-rat-btun-flex">
+
+                                        <div class="heart-rat-btun">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+
+                                        <div class="add-cart-btun">
+                                            <a href="#">Add to cart</a>
+                                        </div>
+
+                                        <div class=" search-btun-cart heart-rat-btun">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="prod-info">
+                                    <h6>Cold Crewneck Sweater</h6>
+                                    <p> ₹ 1200.00</p>
+                                </div>
+                            </div>
+
+
+                            <div class="product-box shop-item s-items" data-title="hat" data-item="women"
+                                data-name="newcollection" data-color="green">
+                                <div class="prod-img">
+                                    <img src="./images/shop-2.jpg" alt="">
+
+                                    <div class="cart-heart-rat-btun-flex">
+
+                                        <div class="heart-rat-btun">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+
+                                        <div class="add-cart-btun">
+                                            <a href="#">Add to cart</a>
+                                        </div>
+
+                                        <div class=" search-btun-cart heart-rat-btun">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="top-rate-info">
+                                        <h6>New</h6>
+                                    </div>
+
+                                </div>
+                                <div class="prod-info">
+                                    <h6>Multi-Way Ultra Crop Top</h6>
+                                    <p> ₹ 600.00</p>
+                                </div>
+                            </div>
+
+
+
+                            <div class="product-box shop-item s-items" data-title="tshirt" data-item="kids"
+                                data-name="newcollection" data-color="black" data-label="medium">
+                                <div class="prod-img">
+                                    <img src="./images/shop-3.jpg" alt="">
+
+                                    <div class="cart-heart-rat-btun-flex">
+
+                                        <div class="heart-rat-btun">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+
+                                        <div class="add-cart-btun">
+                                            <a href="#">Add to cart</a>
+                                        </div>
+
+                                        <div class=" search-btun-cart heart-rat-btun">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="prod-info">
+                                    <h6>Side-Tie Tank</h6>
+                                    <p> ₹ 800.00</p>
+                                </div>
+                            </div>
+
+
+
+                            <div class="product-box shop-item s-items" data-title="bag" data-item="bagshoes"
+                                data-name="popularity" data-color="blue">
+                                <div class="prod-img">
+                                    <img src="./images/shop-4.jpg" alt="">
+
+                                    <div class="cart-heart-rat-btun-flex">
+
+                                        <div class="heart-rat-btun">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+
+                                        <div class="add-cart-btun">
+                                            <a href="#">Add to cart</a>
+                                        </div>
+
+                                        <div class=" search-btun-cart heart-rat-btun">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="prod-info">
+                                    <h6>Cold Crewneck Sweater</h6>
+                                    <p> ₹ 400.00</p>
+                                </div>
+                            </div>
+
+
+
+                            <div class="product-box shop-item s-items" data-title="brown-shoes" data-item="bagshoes"
+                                data-name="popularity" data-color="orang">
+                                <div class="prod-img">
+                                    <img src="./images/shop-5.jpg" alt="">
+
+                                    <div class="cart-heart-rat-btun-flex">
+
+                                        <div class="heart-rat-btun">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+
+                                        <div class="add-cart-btun">
+                                            <a href="#">Add to cart</a>
+                                        </div>
+
+                                        <div class=" search-btun-cart heart-rat-btun">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </div>
+
+                                    </div>
+
+
+
+                                </div>
+                                <div class="prod-info">
+                                    <h6>Side-Tie Tank</h6>
+                                    <p> ₹ 700.00</p>
+                                </div>
+                            </div>
+
+
+
+                            <div class="product-box shop-item s-items" data-title="ladies-sweater" data-item="kids"
+                                data-name="popularity" data-color="blue" data-label="extralarge">
+                                <div class="prod-img">
+                                    <img src="./images/shop-6.jpg" alt="">
+
+                                    <div class="cart-heart-rat-btun-flex">
+
+                                        <div class="heart-rat-btun">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+
+                                        <div class="add-cart-btun">
+                                            <a href="#">Add to cart</a>
+                                        </div>
+
+                                        <div class=" search-btun-cart heart-rat-btun">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </div>
+
+                                    </div>
+
+
+
+                                </div>
+                                <div class="prod-info">
+                                    <h6>Cold Crewneck Sweater</h6>
+                                    <p> ₹ 400.00</p>
+                                </div>
+                            </div>
+
+
+                            <div class="product-box shop-item s-items" data-title="glasses" data-item="others"
+                                data-name="toprated" data-color="orang">
+                                <div class="prod-img">
+                                    <img src="./images/shop-7.jpg" alt="">
+
+                                    <div class="cart-heart-rat-btun-flex">
+
+                                        <div class="heart-rat-btun">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+
+                                        <div class="add-cart-btun">
+                                            <a href="#">Add to cart</a>
+                                        </div>
+
+                                        <div class=" search-btun-cart heart-rat-btun">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="top-rate-info top-rate-info-2">
+                                        <h6>Hot</h6>
+                                    </div>
+
+                                </div>
+                                <div class="prod-info">
+                                    <h6>Woven Crop Cami</h6>
+                                    <p> ₹ 700.00</p>
+                                </div>
+                            </div>
+
+
+                            <div class="product-box shop-item s-items" data-title="sweater" data-item="women"
+                                data-name="toprated" data-color="green" data-label="medium">
+                                <div class="prod-img">
+                                    <img src="./images/shop-8.jpg" alt="">
+
+                                    <div class="cart-heart-rat-btun-flex">
+
+                                        <div class="heart-rat-btun">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+
+                                        <div class="add-cart-btun">
+                                            <a href="#">Add to cart</a>
+                                        </div>
+
+                                        <div class=" search-btun-cart heart-rat-btun">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="prod-info">
+                                    <h6>Woven Crop Cami</h6>
+                                    <p> ₹ 350.00</p>
+                                </div>
+                            </div>
+
+                            <!-- ////// -->
+
+                            <div class="product-box shop-item s-items" data-title="girls-top" data-item="women"
+                                data-name="toprated" data-color="blue" data-label="small">
+                                <div class="prod-img">
+                                    <img src="./images/shop-9.jpg" alt="">
+
+                                    <div class="cart-heart-rat-btun-flex">
+
+                                        <div class="heart-rat-btun">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+
+                                        <div class="add-cart-btun">
+                                            <a href="#">Add to cart</a>
+                                        </div>
+
+                                        <div class=" search-btun-cart heart-rat-btun">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </div>
+
+                                    </div>
+
+
+
+                                </div>
+                                <div class="prod-info">
+                                    <h6>Woven Crop Cami</h6>
+                                    <p> ₹ 1170.00</p>
+                                </div>
+                            </div>
+
+
+                            <div class="product-box shop-item s-items" data-title="lamp" data-item="others"
+                                data-name="topsell" data-color="orang">
+                                <div class="prod-img">
+                                    <img src="./images/shop-10.jpg" alt="">
+
+                                    <div class="cart-heart-rat-btun-flex">
+
+                                        <div class="heart-rat-btun">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+
+                                        <div class="add-cart-btun">
+                                            <a href="#">Add to cart</a>
+                                        </div>
+
+                                        <div class=" search-btun-cart heart-rat-btun">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="prod-info">
+                                    <h6>Cold Crewneck Sweater</h6>
+                                    <p> ₹ 1200.00</p>
+                                </div>
+                            </div>
+
+
+                            <div class="product-box shop-item s-items" data-title="shirt" data-item="menfashion"
+                                data-name="topsell" data-color="purp" data-label="large">
+                                <div class="prod-img">
+                                    <img src="./images/shop-11.jpg" alt="">
+
+                                    <div class="cart-heart-rat-btun-flex">
+
+                                        <div class="heart-rat-btun">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+
+                                        <div class="add-cart-btun">
+                                            <a href="#">Add to cart</a>
+                                        </div>
+
+                                        <div class=" search-btun-cart heart-rat-btun">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="top-rate-info top-rate-info-2">
+                                        <h6>Hot</h6>
+                                    </div>
+
+                                </div>
+                                <div class="prod-info">
+                                    <h6>Cold Crewneck Sweater</h6>
+                                    <p> ₹ 1200.00</p>
+                                </div>
+                            </div>
+
+                            <div class="product-box shop-item s-items" data-title="laptops" data-item="electronic"
+                                data-name="topsell" data-color="purp">
+                                <div class="prod-img">
+                                    <img src="./images/shop-12.jpg" alt="">
+
+                                    <div class="cart-heart-rat-btun-flex">
+
+                                        <div class="heart-rat-btun">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+
+                                        <div class="add-cart-btun">
+                                            <a href="#">Add to cart</a>
+                                        </div>
+
+                                        <div class=" search-btun-cart heart-rat-btun">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="prod-info">
+                                    <h6>Cold Crewneck Sweater</h6>
+                                    <p> ₹ 1200.00</p>
+                                </div>
+                            </div>
+
+
+
+
+
+                        </div>
+
+
+                        <div class="shopping-page-block-list-products-grid-2">
+
+                            <div class="shop-product-block-box product-box shop-item s-items" data-title="shirt" data-item="menfashion"
+                            data-name="newcollection" data-color="black" data-label="large">
+
+                                <div class="left-p-item-img-box">
+                                    <img src="./images/shop-1.jpg" alt="">
+                                </div>
+
+                                <div class="right-p-item-det-info-box">
+                                    <h6>Cold Crewneck Sweater</h6>
+                                    <span>₹ 1200.00</span>
+
+                                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt mollit anim id est laborum. sed ut perspic atis unde omnis iste natus
+                                        error sit voluptatem accusan enim ipsam voluptatem voluptas.</p>
+
+                                    <div class="cart-heart-rat-btun-flex-2">
+
+                                        <div class="heart-rat-btun">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+
+                                        <div class="add-cart-btun">
+                                            <a href="#">Add to cart</a>
+                                        </div>
+
+                                        <div class=" search-btun-cart heart-rat-btun">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="shop-product-block-box product-box shop-item s-items" data-title="hat" data-item="women"
+                            data-name="newcollection" data-color="green">
+
+                                <div class="left-p-item-img-box">
+                                    <img src="./images/shop-2.jpg" alt="">
+                                </div>
+
+                                <div class="right-p-item-det-info-box">
+                                    <h6>Multi-Way Ultra Crop Top</h6>
+                                    <span>₹ 600.00</span>
+
+                                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt mollit anim id est laborum. sed ut perspic atis unde omnis iste natus
+                                        error sit voluptatem accusan enim ipsam voluptatem voluptas.</p>
+
+                                    <div class="cart-heart-rat-btun-flex-2">
+
+                                        <div class="heart-rat-btun">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+
+                                        <div class="add-cart-btun">
+                                            <a href="#">Add to cart</a>
+                                        </div>
+
+                                        <div class=" search-btun-cart heart-rat-btun">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="shop-product-block-box product-box shop-item s-items" data-title="tshirt" data-item="kids"
+                            data-name="newcollection" data-color="black" data-label="medium">
+
+                                <div class="left-p-item-img-box">
+                                    <img src="./images/shop-3.jpg" alt="">
+                                </div>
+
+                                <div class="right-p-item-det-info-box">
+                                    <h6>Side-Tie Tank</h6>
+                                    <span> ₹ 800.00</span>
+
+                                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt mollit anim id est laborum. sed ut perspic atis unde omnis iste natus
+                                        error sit voluptatem accusan enim ipsam voluptatem voluptas.</p>
+
+                                    <div class="cart-heart-rat-btun-flex-2">
+
+                                        <div class="heart-rat-btun">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+
+                                        <div class="add-cart-btun">
+                                            <a href="#">Add to cart</a>
+                                        </div>
+
+                                        <div class=" search-btun-cart heart-rat-btun">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="shop-product-block-box product-box shop-item s-items" data-title="bag" data-item="bagshoes"
+                            data-name="popularity" data-color="blue">
+
+                                <div class="left-p-item-img-box">
+                                    <img src="./images/shop-4.jpg" alt="">
+                                </div>
+
+                                <div class="right-p-item-det-info-box">
+                                    <h6>Cold Crewneck Sweater</h6>
+                                    <span> ₹ 400.00</span>
+
+                                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt mollit anim id est laborum. sed ut perspic atis unde omnis iste natus
+                                        error sit voluptatem accusan enim ipsam voluptatem voluptas.</p>
+
+                                    <div class="cart-heart-rat-btun-flex-2">
+
+                                        <div class="heart-rat-btun">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+
+                                        <div class="add-cart-btun">
+                                            <a href="#">Add to cart</a>
+                                        </div>
+
+                                        <div class=" search-btun-cart heart-rat-btun">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="shop-product-block-box product-box shop-item s-items"
+                            data-title="brown-shoes" data-item="bagshoes"
+                            data-name="popularity" data-color="orang">
+
+                                <div class="left-p-item-img-box">
+                                    <img src="./images/shop-5.jpg" alt="">
+                                </div>
+
+                                <div class="right-p-item-det-info-box">
+                                    <h6>Side-Tie Tank</h6>
+                                    <span> ₹ 700.00</span>
+
+                                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt mollit anim id est laborum. sed ut perspic atis unde omnis iste natus
+                                        error sit voluptatem accusan enim ipsam voluptatem voluptas.</p>
+
+                                    <div class="cart-heart-rat-btun-flex-2">
+
+                                        <div class="heart-rat-btun">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+
+                                        <div class="add-cart-btun">
+                                            <a href="#">Add to cart</a>
+                                        </div>
+
+                                        <div class=" search-btun-cart heart-rat-btun">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="shop-product-block-box product-box shop-item s-items" data-title="ladies-sweater" data-item="kids"
+                            data-name="popularity" data-color="blue" data-label="extralarge">
+
+                                <div class="left-p-item-img-box">
+                                    <img src="./images/shop-6.jpg" alt="">
+                                </div>
+
+                                <div class="right-p-item-det-info-box">
+                                    <h6>Cold Crewneck Sweater</h6>
+                                    <span> ₹ 400.00</span>
+
+                                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt mollit anim id est laborum. sed ut perspic atis unde omnis iste natus
+                                        error sit voluptatem accusan enim ipsam voluptatem voluptas.</p>
+
+                                    <div class="cart-heart-rat-btun-flex-2">
+
+                                        <div class="heart-rat-btun">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+
+                                        <div class="add-cart-btun">
+                                            <a href="#">Add to cart</a>
+                                        </div>
+
+                                        <div class=" search-btun-cart heart-rat-btun">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="shop-product-block-box product-box shop-item s-items" data-title="glasses" data-item="others"
+                            data-name="toprated" data-color="orang">
+
+                                <div class="left-p-item-img-box">
+                                    <img src="./images/shop-7.jpg" alt="">
+                                </div>
+
+                                <div class="right-p-item-det-info-box">
+                                    <h6>Woven Crop Cami</h6>
+                                    <span> ₹ 700.00</span>
+
+                                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt mollit anim id est laborum. sed ut perspic atis unde omnis iste natus
+                                        error sit voluptatem accusan enim ipsam voluptatem voluptas.</p>
+
+                                    <div class="cart-heart-rat-btun-flex-2">
+
+                                        <div class="heart-rat-btun">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+
+                                        <div class="add-cart-btun">
+                                            <a href="#">Add to cart</a>
+                                        </div>
+
+                                        <div class=" search-btun-cart heart-rat-btun">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="shop-product-block-box product-box shop-item s-items" data-title="sweater" data-item="women"
+                            data-name="toprated" data-color="green" data-label="medium">
+
+                                <div class="left-p-item-img-box">
+                                    <img src="./images/shop-8.jpg" alt="">
+                                </div>
+
+                                <div class="right-p-item-det-info-box">
+                                    <h6>Woven Crop Cami</h6>
+                                    <span> ₹ 350.00</span>
+
+                                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt mollit anim id est laborum. sed ut perspic atis unde omnis iste natus
+                                        error sit voluptatem accusan enim ipsam voluptatem voluptas.</p>
+
+                                    <div class="cart-heart-rat-btun-flex-2">
+
+                                        <div class="heart-rat-btun">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+
+                                        <div class="add-cart-btun">
+                                            <a href="#">Add to cart</a>
+                                        </div>
+
+                                        <div class=" search-btun-cart heart-rat-btun">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="shop-product-block-box product-box shop-item s-items"data-title="girls-top" data-item="women"
+                            data-name="toprated" data-color="blue" data-label="small">
+
+                                <div class="left-p-item-img-box">
+                                    <img src="./images/shop-9.jpg" alt="">
+                                </div>
+
+                                <div class="right-p-item-det-info-box">
+                                    <h6>Woven Crop Cami</h6>
+                                    <span> ₹ 1170.00</span>
+
+                                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt mollit anim id est laborum. sed ut perspic atis unde omnis iste natus
+                                        error sit voluptatem accusan enim ipsam voluptatem voluptas.</p>
+
+                                    <div class="cart-heart-rat-btun-flex-2">
+
+                                        <div class="heart-rat-btun">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+
+                                        <div class="add-cart-btun">
+                                            <a href="#">Add to cart</a>
+                                        </div>
+
+                                        <div class=" search-btun-cart heart-rat-btun">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="shop-product-block-box product-box shop-item s-items" data-title="lamp" data-item="others"
+                            data-name="topsell" data-color="orang">
+
+                                <div class="left-p-item-img-box">
+                                    <img src="./images/shop-10.jpg" alt="">
+                                </div>
+
+                                <div class="right-p-item-det-info-box">
+                                    <h6>Cold Crewneck Sweater</h6>
+                                    <span> ₹ 1200.00</span>
+
+                                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt mollit anim id est laborum. sed ut perspic atis unde omnis iste natus
+                                        error sit voluptatem accusan enim ipsam voluptatem voluptas.</p>
+
+                                    <div class="cart-heart-rat-btun-flex-2">
+
+                                        <div class="heart-rat-btun">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+
+                                        <div class="add-cart-btun">
+                                            <a href="#">Add to cart</a>
+                                        </div>
+
+                                        <div class=" search-btun-cart heart-rat-btun">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="shop-product-block-box product-box shop-item s-items" data-title="shirt" data-item="menfashion"
+                            data-name="topsell" data-color="purp" data-label="large">
+
+                                <div class="left-p-item-img-box">
+                                    <img src="./images/shop-11.jpg" alt="">
+                                </div>
+
+                                <div class="right-p-item-det-info-box">
+                                    <h6>Cold Crewneck Sweater</h6>
+                                    <span> ₹ 1200.00</span>
+
+                                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt mollit anim id est laborum. sed ut perspic atis unde omnis iste natus
+                                        error sit voluptatem accusan enim ipsam voluptatem voluptas.</p>
+
+                                    <div class="cart-heart-rat-btun-flex-2">
+
+                                        <div class="heart-rat-btun">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+
+                                        <div class="add-cart-btun">
+                                            <a href="#">Add to cart</a>
+                                        </div>
+
+                                        <div class=" search-btun-cart heart-rat-btun">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="shop-product-block-box product-box shop-item s-items" data-title="laptops" data-item="electronic"
+                            data-name="topsell" data-color="purp">
+
+                                <div class="left-p-item-img-box">
+                                    <img src="./images/shop-12.jpg" alt="">
+                                </div>
+
+                                <div class="right-p-item-det-info-box">
+                                    <h6>Cold Crewneck Sweater</h6>
+                                    <span> ₹ 1200.00</span>
+
+                                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt mollit anim id est laborum. sed ut perspic atis unde omnis iste natus
+                                        error sit voluptatem accusan enim ipsam voluptatem voluptas.</p>
+
+                                    <div class="cart-heart-rat-btun-flex-2">
+
+                                        <div class="heart-rat-btun">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+
+                                        <div class="add-cart-btun">
+                                            <a href="#">Add to cart</a>
+                                        </div>
+
+                                        <div class=" search-btun-cart heart-rat-btun">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+
+
+                    </div>
+
+                    <div class="shopping-pages-main-boxes">
+
+                        <div class="page-prev-btun">
+                            Prev
+                        </div>
+
+                        <div class="pages-num-boxes">
+
+                            <div class="pag-num-box">
+                                1
+                            </div>
+
+                            <div class="pag-num-box active">
+                                2
+                            </div>
+
+                            <div class="pag-num-box">
+                                3
+                            </div>
+
+                            <div class="pag-num-box">
+                                4
+                            </div>
+
+                            <div class="pag-num-box">
+                                5
+                            </div>
+
+                        </div>
+
+                        <div class="page-prev-btun page-prev-next">
+                            Next
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ==========================================
+        Our Footer  section  
+    ============================================ -->
+
+    <section class="footer-sec">
+        <div class="common-container">
+
+            <div class="footer-grid grid grid-five-col">
+
+                <div class="footer-box">
+                    <div class="foot-img">
+                        <img src="./images/footer-logo-2.png" alt="">
+                    </div>
+
+                    <div class="footer-cont">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium in modi et illum nam
+                            est ab eligendi delectus similique ducimus!</p>
+                    </div>
+
+                </div>
+
+
+                <div class="footer-box">
+                    <div class="foot-img foot-head">
+                        <h4>Category</h4>
+                    </div>
+
+                    <div class="footer-cont">
+
+                        <div class="footer-list">
+                            <li><a href="#" class="f-link">Men</a></li>
+                            <li><a href="#" class="f-link">Women</a></li>
+                            <li><a href="#" class="f-link">Kids</a></li>
+                            <li><a href="#" class="f-link">Accessories</a></li>
+                            <li><a href="#" class="f-link">Shoes</a></li>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="footer-box">
+                    <div class="foot-img foot-head">
+                        <h4>Useful Link</h4>
+                    </div>
+
+                    <div class="footer-cont">
+
+                        <div class="footer-list">
+                            <li><a href="#" class="f-link">News & Tips</a></li>
+                            <li><a href="#" class="f-link">About Us</a></li>
+                            <li><a href="#" class="f-link">Terms & Conditions</a></li>
+                            <li><a href="#" class="f-link">Our Shop</a></li>
+                            <li><a href="#" class="f-link">Contact Us</a></li>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="footer-box">
+                    <div class="foot-img foot-head">
+                        <h4>Contact</h4>
+                    </div>
+
+                    <div class="footer-cont">
+
+                        <div class="footer-list">
+                            <li><a href="#" class="f-link-2">123, Subhash Park Delhi - 11054 , Azad Colony</a></li>
+                            <li><a href="#" class="f-link-2">+91 997464759</a></li>
+                            <li><a href="#" class="f-link-2">info@example.com</a></li>
+                            <li>
+                                <div class="f-soc-icon-box">
+                                    <div class="f-soc-icon">
+                                        <ion-icon name="logo-facebook"></ion-icon>
+                                    </div>
+
+                                    <div class="f-soc-icon">
+                                        <ion-icon name="logo-twitter"></ion-icon>
+                                    </div>
+
+
+                                    <div class="f-soc-icon">
+                                        <ion-icon name="logo-vimeo"></ion-icon>
+                                    </div>
+
+                                    <div class="f-soc-icon">
+                                        <ion-icon name="logo-google"></ion-icon>
+                                    </div>
+                                </div>
+                            </li>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="footer-box">
+                    <div class="foot-img foot-head">
+                        <h4>Newsletter</h4>
+                    </div>
+
+                    <div class="footer-cont">
+
+                        <div class="footer-list">
+                            <li><a href="#" class="f-link-2">123, Subhash Park Delhi - 11054 , Azad Colony</a></li>
+
+                            <div class="f-subscribe-input-box">
+                                <input type="email" class="form-control" name="email" id="email"
+                                    placeholder="Enter your email" autocomplete="off" required>
+
+                                <div class="email-submit-button">
+                                    <input type="submit" name="submit" id="submit" value="Subscribe">
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+
+    </section>
+
+    <div class="last-f-cont">
+        <p>Castro © 2022 its designed created by Mr. Faiz Web Developer | All Right Reserved</p>
+    </div>
+
+    <div class="scroll-top-btun" >
+        <i class="fa-solid fa-arrow-up-long"></i>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- ion-icons CDn  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- owl caoursel script  -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="./js/owl.carousel.js"></script>
+
+    <script>
+
+const show_item =  document.querySelector('.grid-btun');
+const show_blockitem =  document.querySelector('.list-btun');
+const grid_menu =  document.querySelector('.shopping-page-products-grid');
+const lists_menu =  document.querySelector('.shopping-page-block-list-products-grid-2');
+
+
+const showGrid = () => {
+    grid_menu.classList.add('active')
+    lists_menu.classList.remove('active')
+    show_item.classList.add('active')
+    show_blockitem.classList.remove('active')
+}
+
+show_item.addEventListener("click", () =>  showGrid());
+ 
+
+
+
+show_blockitem.addEventListener("click", function(){
+    grid_menu.classList.remove('active')
+    lists_menu.classList.add('active')
+    show_item.classList.remove('active')
+    show_blockitem.classList.add('active')
+});
+        
+
+
+var selecter  = document.querySelector('.selector');
+    var content =  document.querySelector('.textPara');
+    var select_box =  document.querySelector('.options-box');
+    var options  =  document.querySelectorAll('.op-list');
+    var arrow = document.querySelector('.arrow-icono');
+
+
+    const toggleOptions = () => {
+
+        select_box.classList.toggle('active');
+          arrow.classList.toggle('rotate');
+        
+    }
+
+    selecter.addEventListener("click", () => toggleOptions());
+
+    for(let i =0; i < options.length; i++){
+        options[i].addEventListener('click', function(){
+            content.innerHTML = this.textContent;
+            select_box.classList.toggle('active');
+        arrow.classList.toggle('rotate');
+        })
+    }
+        
+    </script>
+
+    <!-- index js file -->
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>

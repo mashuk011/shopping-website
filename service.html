@@ -1,0 +1,652 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- fonts awesome 6 CDN  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- css link,  owl carousel -->
+
+    <link rel="stylesheet" href="./css/owl.carousel.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/owl.carousel.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./css/animate.css">
+
+    <title>Shopping website</title>
+
+</head>
+
+<body onload="myFunction()">
+
+    <div id="preloader"></div>
+
+    <!-- ==========================================
+        Our Top Header 
+    ============================================ -->
+
+    <section class="top-header-sec">
+        <div class="common-container">
+
+            <div class="top-mail-info-main-box">
+
+                <div class="support-mail-info-box">
+
+                    <div class="mail-box">
+                        <ion-icon name="mail-outline" class="mail-icon"></ion-icon>
+                        <a href="#" class="mail-text">support@example.com</a>
+                    </div>
+
+                    <div class="top-ad-box mail-box">
+                        <ion-icon name="globe-outline" class="ad-ico mail-icon"></ion-icon>
+                        <span class="ad-text ">Kleine Pierbard 8-6 2249 KV Vries </span>
+                    </div>
+
+                </div>
+
+                <div class="top-soc-ico-info-box mail-box">
+
+                    <div class="soc-icon-box">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </div>
+
+                    <div class="soc-icon-box">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </div>
+
+
+                    <div class="soc-icon-box">
+                        <ion-icon name="logo-vimeo"></ion-icon>
+                    </div>
+
+                    <div class="soc-icon-box">
+                        <ion-icon name="logo-google"></ion-icon>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ==========================================
+        Our Navbar  
+    ============================================ -->
+
+    <section class="header ">
+        <div class="common-container navbar-flex">
+
+            <div class="nav-logo-box">
+                <a href="./index.html">
+                    <img src="./images/nav-logo.png" alt="">
+
+                </a>
+            </div>
+
+            <div class="main-navbar">
+                <div class="nav-overlay"></div>
+                <div class="navbar">
+                    <nav class="nav">
+                        <div class="nav-lists">
+
+                            <img src="./images/mobile-logo.png" class="mobile-logo" alt="">
+
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./about.html">About</a></li>
+                            <li><a href="./shop.html">Shop</a> </li>
+                            <li><a href="./service.html">Services</a></li>
+                            <li><a href="./blog.html">Blog</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+
+                            <div class="mobile-contact-info">
+                                <h6>Contact Info</h6>
+                                <p>123, Subhash Park Delhi - <br /> 110059 Azad Colony ..</p>
+                                <p>+91 9971464759</p>
+                                <p>info@example.com</p>
+                            </div>
+
+                        </div>
+                    </nav>
+
+
+                </div>
+
+                <div class="mobile-nav-btun">
+
+                    <div class="open-menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <div class="close-menu open-menu">
+                        <i class="fa-regular fa-circle-xmark"></i>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="top-rating-search-fav-list-box">
+
+                <div class="n-icon-box search-button">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <div class="n-icon-box">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+
+
+                <div class="n-icon-box">
+                    <a href="./signin.html">
+                    <i class="fa-regular fa-user"></i>
+                </a>
+                </div>
+
+                <div class="n-icon-box shopping-cart">
+                    <a href="./Cart.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                    <div class="cart-num">
+                        <span>3</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+        <!-- search bar box -->
+
+        <section class=" search-bar-sec">
+            <div class="common-container-2">
+    
+                <div class="search-bar-main-box">
+    
+                    <div class="serch-close-btun">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                    
+                    <div class="seach-inp-box">
+                        <input type="search" name="search" id="search" placeholder="Seach Here ..">
+                    </div>
+    
+                    <button class="search-btn-o">
+                        Seach Now!
+                    </button>
+                </div>
+    
+                <div class="seach-text-head">
+                    <h6>RECENT SEARCH KEYWORDS</h6>
+                </div>
+    
+                <div class="seach-links-boxes">
+    
+                    <div class="ser-link-box">
+                        <a href="#">
+                            Finance
+                        </a>
+                    </div>
+    
+                    <div class="ser-link-box">
+                        <a href="#">
+                            Idea
+                        </a>
+                    </div>
+    
+                    <div class="ser-link-box">
+                        <a href="#">
+                            Service
+                        </a>
+                    </div>
+    
+                    <div class="ser-link-box">
+                        <a href="#">
+                            Growth
+                        </a>
+                    </div>
+    
+                    <div class="ser-link-box">
+                        <a href="#">
+                            plan
+                        </a>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </section>
+
+    <!-- ==========================================
+        Our Common Banner Page  
+    ============================================ -->
+
+    <section class="common-page-sec about-page-title">
+        <div class="common-container">
+
+            <div class="about-page-title common-page-title">
+
+                <h3>Our Services</h3>
+                <div class="link-box">
+                    <div class="main-page-link">
+                        <a href="./index.html">Home</a>
+                    </div>
+
+                    <div class="title-page-text">
+                        <p> / Our Service</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- ==========================================
+        Our services detailing mention   
+    ============================================ -->
+
+    <section class="services-details-men-sec">
+        <div class="common-container">
+
+            <div class="servicepage-grid grid grid-two-col">
+
+                <div class="left-serv-men-img">
+                    <img src="./images/service-1.jpg" alt="">
+                </div>
+
+                <div class="right-serv-right-men-info">
+                    <h2>Fashion Design</h2>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                        est laborum. sed ut perspici</p>
+
+                    <div class="common-btun serv-men-btun ">
+                        <a href="#">View Catalog</a>
+                        <div class="arrow-icon">
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+            <div class="servicepage-grid grid grid-two-col">
+
+
+
+                <div class="right-serv-right-men-info right-serv-right-men-info-2">
+                    <h2>Furniture Design</h2>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                        est laborum. sed ut perspici</p>
+
+                    <div class="common-btun serv-men-btun ">
+                        <a href="#">View Catalog</a>
+                        <div class="arrow-icon">
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="left-serv-men-img">
+                    <img src="./images/service-2.jpg" alt="">
+                </div>
+
+            </div>
+
+
+
+
+
+            <div class="servicepage-grid grid grid-two-col">
+
+                <div class="left-serv-men-img">
+                    <img src="./images/service-3.jpg" alt="">
+                </div>
+
+                <div class="right-serv-right-men-info">
+                    <h2>Handmade Craft</h2>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                        est laborum. sed ut perspici</p>
+
+                    <div class="common-btun serv-men-btun ">
+                        <a href="#">View Catalog</a>
+                        <div class="arrow-icon">
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- ==========================================
+        Our season banner bg section  
+    ============================================ -->
+
+
+    <div class="bg-banner-img">
+    </div>
+
+
+    <section class="season-sec">
+
+        <div class="common-container">
+
+            <div class="season-main-box ">
+                <div class="shape-img-box">
+                    <img src="./images/shape-2.png" class="shape-2" alt="">
+                    <img src="./images/shape-3.png" class="shape-3" alt="">
+
+                </div>
+                <div class="season-info-box">
+                    <h2>End of Season Clearance Sale upto 50%</h2>
+                    <p>Welcome to the new range of shaving products from master barber. We have over three decades of
+                        experience in the male grooming industry</p>
+
+                    <div class="common-btun">
+                        <a href="#">SHop Now</a>
+                        <div class="arrow-icon">
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ------------------------------------------------
+      Our service page Testimonials sec
+    -------------------------------------------- -->
+
+    <section class="serv-page-testim-sec">
+        <div class="common-container">
+
+            <div class="common-heading">
+                <h2>Testimonials</h2>
+                <p>Excepteur sint occaecat cupidatat non proident sunt</p>
+            </div>
+
+            <div class="testim-main-box">
+
+                <div class="owl-carousel owl-theme testim-carousel">
+
+                    <div class="owl-item">
+                        <div class="testim-box">
+
+                            <div class="testm-det">
+                                <p>Excepteur sint occaecat cup datat non proident sunt in culpa qui officia deser unt
+                                    mollit anim labor um sed persp unde omnis iste.</p>
+
+                                    <h4>Natasha Cox</h4>
+                                    <p>Co Founder</p>
+                                    
+                            </div>
+
+                            <div class="testim-img">
+                                <img src="./images/testimonial-1.png" alt="">
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+
+                    <div class="owl-item">
+                        <div class="testim-box">
+
+                            <div class="testm-det">
+                                <p>Excepteur sint occaecat cup datat non proident sunt in culpa qui officia deser unt
+                                    mollit anim labor um sed persp unde omnis iste.</p>
+
+                                    <h4>Martin Mason</h4>
+                                    <p>Co Founder</p>
+                                    
+                            </div>
+
+                            <div class="testim-img">
+                                <img src="./images/testimonial-2.png" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="owl-item">
+                        <div class="testim-box">
+
+                            <div class="testm-det">
+                                <p>Excepteur sint occaecat cup datat non proident sunt in culpa qui officia deser unt
+                                    mollit anim labor um sed persp unde omnis iste.</p>
+
+                                    <h4>Victoria Simpson</h4>
+                                    <p>Co Founder</p>
+                                    
+                            </div>
+
+                            <div class="testim-img">
+                                <img src="./images/testimonial-3.png" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- ==========================================
+        Our Footer  section  
+    ============================================ -->
+
+    <section class="footer-sec">
+        <div class="common-container">
+
+            <div class="footer-grid grid grid-five-col">
+
+                <div class="footer-box">
+                    <div class="foot-img">
+                        <img src="./images/footer-logo-2.png" alt="">
+                    </div>
+
+                    <div class="footer-cont">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium in modi et illum nam
+                            est ab eligendi delectus similique ducimus!</p>
+                    </div>
+
+                </div>
+
+
+                <div class="footer-box">
+                    <div class="foot-img foot-head">
+                        <h4>Category</h4>
+                    </div>
+
+                    <div class="footer-cont">
+
+                        <div class="footer-list">
+                            <li><a href="#" class="f-link">Men</a></li>
+                            <li><a href="#" class="f-link">Women</a></li>
+                            <li><a href="#" class="f-link">Kids</a></li>
+                            <li><a href="#" class="f-link">Accessories</a></li>
+                            <li><a href="#" class="f-link">Shoes</a></li>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="footer-box">
+                    <div class="foot-img foot-head">
+                        <h4>Useful Link</h4>
+                    </div>
+
+                    <div class="footer-cont">
+
+                        <div class="footer-list">
+                            <li><a href="#" class="f-link">News & Tips</a></li>
+                            <li><a href="#" class="f-link">About Us</a></li>
+                            <li><a href="#" class="f-link">Terms & Conditions</a></li>
+                            <li><a href="#" class="f-link">Our Shop</a></li>
+                            <li><a href="#" class="f-link">Contact Us</a></li>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="footer-box">
+                    <div class="foot-img foot-head">
+                        <h4>Contact</h4>
+                    </div>
+
+                    <div class="footer-cont">
+
+                        <div class="footer-list">
+                            <li><a href="#" class="f-link-2">123, Subhash Park Delhi - 11054 , Azad Colony</a></li>
+                            <li><a href="#" class="f-link-2">+91 997464759</a></li>
+                            <li><a href="#" class="f-link-2">info@example.com</a></li>
+                            <li>
+                                <div class="f-soc-icon-box">
+                                    <div class="f-soc-icon">
+                                        <ion-icon name="logo-facebook"></ion-icon>
+                                    </div>
+
+                                    <div class="f-soc-icon">
+                                        <ion-icon name="logo-twitter"></ion-icon>
+                                    </div>
+
+
+                                    <div class="f-soc-icon">
+                                        <ion-icon name="logo-vimeo"></ion-icon>
+                                    </div>
+
+                                    <div class="f-soc-icon">
+                                        <ion-icon name="logo-google"></ion-icon>
+                                    </div>
+                                </div>
+                            </li>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="footer-box">
+                    <div class="foot-img foot-head">
+                        <h4>Newsletter</h4>
+                    </div>
+
+                    <div class="footer-cont">
+
+                        <div class="footer-list">
+                            <li><a href="#" class="f-link-2">123, Subhash Park Delhi - 11054 , Azad Colony</a></li>
+
+                            <div class="f-subscribe-input-box">
+                                <input type="email" class="form-control" name="email" id="email"
+                                    placeholder="Enter your email" autocomplete="off" required>
+
+                                <div class="email-submit-button">
+                                    <input type="submit" name="submit" id="submit" value="Subscribe">
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+
+    </section>
+
+    <div class="last-f-cont">
+        <p>Castro © 2022 its designed created by Mr. Faiz Web Developer | All Right Reserved</p>
+    </div>
+
+    <div class="scroll-top-btun" >
+        <i class="fa-solid fa-arrow-up-long"></i>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- ion-icons CDn  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- owl caoursel script  -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="./js/owl.carousel.js"></script>
+
+    <!-- index js file -->
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>

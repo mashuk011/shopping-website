@@ -1,0 +1,782 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- fonts awesome 6 CDN  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- css link,  owl carousel -->
+
+    <link rel="stylesheet" href="./css/owl.carousel.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/owl.carousel.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./css/animate.css">
+
+    <title>Shopping website</title>
+
+</head>
+
+<body onload="myFunction()">
+
+    <div id="preloader"></div>
+
+    <!-- ==========================================
+        Our Top Header 
+    ============================================ -->
+
+    <section class="top-header-sec">
+        <div class="common-container">
+
+            <div class="top-mail-info-main-box">
+
+                <div class="support-mail-info-box">
+
+                    <div class="mail-box">
+                        <ion-icon name="mail-outline" class="mail-icon"></ion-icon>
+                        <a href="#" class="mail-text">support@example.com</a>
+                    </div>
+
+                    <div class="top-ad-box mail-box">
+                        <ion-icon name="globe-outline" class="ad-ico mail-icon"></ion-icon>
+                        <span class="ad-text ">Kleine Pierbard 8-6 2249 KV Vries </span>
+                    </div>
+
+                </div>
+
+                <div class="top-soc-ico-info-box mail-box">
+
+                    <div class="soc-icon-box">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </div>
+
+                    <div class="soc-icon-box">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </div>
+
+
+                    <div class="soc-icon-box">
+                        <ion-icon name="logo-vimeo"></ion-icon>
+                    </div>
+
+                    <div class="soc-icon-box">
+                        <ion-icon name="logo-google"></ion-icon>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ==========================================
+        Our Navbar  
+    ============================================ -->
+
+    <section class="header ">
+        <div class="common-container navbar-flex">
+
+            <div class="nav-logo-box">
+                <a href="./index.html">
+                    <img src="./images/nav-logo.png" alt="">
+
+                </a>
+            </div>
+
+            <div class="main-navbar">
+                <div class="nav-overlay"></div>
+                <div class="navbar">
+                    <nav class="nav">
+                        <div class="nav-lists">
+
+                            <img src="./images/mobile-logo.png" class="mobile-logo" alt="">
+
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./about.html">About</a></li>
+                            <li><a href="./shop.html">Shop</a> </li>
+                            <li><a href="./service.html">Services</a></li>
+                            <li><a href="./blog.html">Blog</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+
+                            <div class="mobile-contact-info">
+                                <h6>Contact Info</h6>
+                                <p>123, Subhash Park Delhi - <br /> 110059 Azad Colony ..</p>
+                                <p>+91 9971464759</p>
+                                <p>info@example.com</p>
+                            </div>
+
+                        </div>
+                    </nav>
+
+
+                </div>
+
+                <div class="mobile-nav-btun">
+
+                    <div class="open-menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <div class="close-menu open-menu">
+                        <i class="fa-regular fa-circle-xmark"></i>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="top-rating-search-fav-list-box">
+
+                <div class="n-icon-box search-button">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <div class="n-icon-box">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+
+
+                <div class="n-icon-box">
+                    <a href="./signin.html">
+                    <i class="fa-regular fa-user"></i>
+                </a>
+                </div>
+
+                <div class="n-icon-box shopping-cart">
+                    <a href="./Cart.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                    <div class="cart-num">
+                        <span>3</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!-- search bar box -->
+
+    <section class=" search-bar-sec">
+        <div class="common-container-2">
+
+            <div class="search-bar-main-box">
+
+                <div class="serch-close-btun">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+
+                <div class="seach-inp-box">
+                    <input type="search" name="search" id="search" placeholder="Seach Here ..">
+                </div>
+
+                <button class="search-btn-o">
+                    Seach Now!
+                </button>
+            </div>
+
+            <div class="seach-text-head">
+                <h6>RECENT SEARCH KEYWORDS</h6>
+            </div>
+
+            <div class="seach-links-boxes">
+
+                <div class="ser-link-box">
+                    <a href="#">
+                        Finance
+                    </a>
+                </div>
+
+                <div class="ser-link-box">
+                    <a href="#">
+                        Idea
+                    </a>
+                </div>
+
+                <div class="ser-link-box">
+                    <a href="#">
+                        Service
+                    </a>
+                </div>
+
+                <div class="ser-link-box">
+                    <a href="#">
+                        Growth
+                    </a>
+                </div>
+
+                <div class="ser-link-box">
+                    <a href="#">
+                        plan
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ==========================================
+        Our Common Banner Page  
+    ============================================ -->
+
+    <section class="common-page-sec about-page-title">
+        <div class="common-container">
+
+            <div class="about-page-title common-page-title">
+
+                <h3> Cart Page</h3>
+                <div class="link-box">
+                    <div class="main-page-link">
+                        <a href="./index.html">Home</a>
+                    </div>
+
+                    <div class="title-page-text">
+                        <p> / Cart Page</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+    <!-- ==========================================
+        Our cart  Page  
+    ============================================ -->
+
+    <section class="cart-page-sec">
+        <div class="cart-container">
+
+            <div class="cart-main-box">
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Product Name</th>
+                            <th>Price</th>
+                            <th>Quantity </th>
+                            <th>Subtotal</th>
+
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="cart-prod-name-box-flex">
+
+                                    <div class="prod-del-icon">
+                                        <i class="fa-solid fa-xmark"></i>
+                                    </div>
+
+                                    <div class="cart-prod-name-box">
+                                        <div class="cart-prd-img">
+                                            <img src="./images/cart-1.jpg" alt="">
+                                        </div>
+                                        <div class="cart-prod-name">
+                                            <h6>Black Boys Shirt</h6>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </td>
+                            <td>
+                                <div class="cart-price">
+                                    <p>₹<span id="pricetext">760</span> </p>
+                                </div>
+                            </td>
+
+                            <td>
+
+                                <div class="prod-qty-sel-box cart-prod-qty-box">
+
+                                    <div class="minusbtun" onclick="decFunc('qtyBx' , 'totalprice' , 'pricetext')">
+                                        <i class="fa-solid fa-minus"></i>
+                                    </div>
+
+                                    <div class="qty-input">
+                                        <input type="text" id="qtyBx" readonly="" value="0">
+                                    </div>
+
+                                    <div class="addbtun minusbtun"
+                                        onclick="incFunc('qtyBx' , 'totalprice', 'pricetext')">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+
+                                </div>
+                            </td>
+
+                            <td>
+                                <div class="cart-price subtotl-price">
+                                    <p>₹<span id="totalprice">760</span> </p>
+
+                                </div>
+                            </td>
+
+                        </tr>
+
+
+
+                        <tr>
+                            <td>
+                                <div class="cart-prod-name-box-flex">
+
+                                    <div class="prod-del-icon">
+                                        <i class="fa-solid fa-xmark"></i>
+                                    </div>
+
+                                    <div class="cart-prod-name-box">
+                                        <div class="cart-prd-img">
+                                            <img src="./images/cart-2.jpg" alt="">
+                                        </div>
+                                        <div class="cart-prod-name">
+                                            <h6>Oppo Enco Buds</h6>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </td>
+                            <td>
+                                <div class="cart-price">
+                                    <p>₹ <span id="pricetext1">1600</span></p>
+                                </div>
+                            </td>
+
+                            <td>
+
+                                <div class="prod-qty-sel-box cart-prod-qty-box">
+
+                                    <div class="minusbtun" onclick="decFunc('qtyBx1' , 'totalprice1' , 'pricetext1' )">
+                                        <i class="fa-solid fa-minus"></i>
+                                    </div>
+
+                                    <div class="qty-input">
+                                        <input type="text" id="qtyBx1" readonly="" value="0">
+                                    </div>
+
+                                    <div class="addbtun minusbtun"
+                                        onclick="incFunc('qtyBx1' , 'totalprice1', 'pricetext1')">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+
+                                </div>
+                            </td>
+
+                            <td>
+                                <div class="cart-price subtotl-price">
+                                    <p>₹<span id="totalprice1">1600</span> </p>
+                                </div>
+                            </td>
+
+                        </tr>
+
+
+
+
+
+                        <tr>
+                            <td>
+                                <div class="cart-prod-name-box-flex">
+
+                                    <div class="prod-del-icon">
+                                        <i class="fa-solid fa-xmark"></i>
+                                    </div>
+
+                                    <div class="cart-prod-name-box">
+                                        <div class="cart-prd-img">
+                                            <img src="./images/cart-3.jpg" alt="">
+                                        </div>
+                                        <div class="cart-prod-name">
+                                            <h6>Baby Backpacks</h6>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </td>
+                            <td>
+                                <div class="cart-price">
+                                    <p>₹<span id="pricetext2">1100</span> </p>
+                                </div>
+                            </td>
+
+                            <td>
+
+                                <div class="prod-qty-sel-box cart-prod-qty-box">
+
+                                    <div class="minusbtun" onclick="decFunc('qtyBx2', 'totalprice2' , 'pricetext2' )">
+                                        <i class="fa-solid fa-minus"></i>
+                                    </div>
+
+                                    <div class="qty-input">
+                                        <input type="text" id="qtyBx2" readonly="" value="0">
+                                    </div>
+
+                                    <div class="addbtun minusbtun"
+                                        onclick="incFunc('qtyBx2' , 'totalprice2' , 'pricetext2' )">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+
+                                </div>
+                            </td>
+
+                            <td>
+                                <div class="cart-price subtotl-price">
+                                    <p>₹<span id="totalprice2">1100</span> </p>
+                                </div>
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+                </table>
+
+            </div>
+
+
+            <div class="coupn-cde-updte-card-main-box">
+
+                <div class="app-coupn-box-main">
+
+                    <div class="coupn-input-box">
+                        <input type="text" name="coupon"  id="coupon" placeholder="Enter Coupon Code...">
+                        <label for="text" class="small-text" id="err-thro">Enter the coupon code ..</label>
+                    </div>
+
+                    <div class="common-btun coupon-btun" id="coupon-btun" onclick="discountCode()">
+                        <a href="#">Apply Coupon</a>
+                        <div class="arrow-icon">
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="common-btun update-cart-btun">
+                    <a href="#">Update Cart</a>
+                    <div class="arrow-icon">
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+            <div class="cart-totl-main-box">
+
+                <div class="cart-tol-head">
+                    <h5>Cart Totals</h5>
+                </div>
+                <div class=" cart-subtotl-box" >
+                    <h6>Subtotal:</h6>
+                    <p>₹<span id="subtotal">3450</span></p>
+                </div>
+
+                <div class="cart-subtotl-box cart-totl-box">
+                    <h6>Shipping Fee:</h6>
+                    <p>₹<span class="totalcart" id="ShippingFee">70</span> </p>
+                </div>
+
+                <div class="cart-subtotl-box cart-totl-box">
+                    <h6>Order Total:</h6>
+                    <p>₹<span class="totalcart" id="totalcart">3450</span> </p>
+                </div>
+
+
+                <div class="common-btun carttotal-btun">
+                    <a href="#">Update Cart</a>
+                    <div class="arrow-icon">
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ==========================================
+        Our Footer  section  
+    ============================================ -->
+
+    <section class="footer-sec">
+        <div class="common-container">
+
+            <div class="footer-grid grid grid-five-col">
+
+                <div class="footer-box">
+                    <div class="foot-img">
+                        <img src="./images/footer-logo-2.png" alt="">
+                    </div>
+
+                    <div class="footer-cont">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium in modi et illum nam
+                            est ab eligendi delectus similique ducimus!</p>
+                    </div>
+
+                </div>
+
+
+                <div class="footer-box">
+                    <div class="foot-img foot-head">
+                        <h4>Category</h4>
+                    </div>
+
+                    <div class="footer-cont">
+
+                        <div class="footer-list">
+                            <li><a href="#" class="f-link">Men</a></li>
+                            <li><a href="#" class="f-link">Women</a></li>
+                            <li><a href="#" class="f-link">Kids</a></li>
+                            <li><a href="#" class="f-link">Accessories</a></li>
+                            <li><a href="#" class="f-link">Shoes</a></li>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="footer-box">
+                    <div class="foot-img foot-head">
+                        <h4>Useful Link</h4>
+                    </div>
+
+                    <div class="footer-cont">
+
+                        <div class="footer-list">
+                            <li><a href="#" class="f-link">News & Tips</a></li>
+                            <li><a href="#" class="f-link">About Us</a></li>
+                            <li><a href="#" class="f-link">Terms & Conditions</a></li>
+                            <li><a href="#" class="f-link">Our Shop</a></li>
+                            <li><a href="#" class="f-link">Contact Us</a></li>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="footer-box">
+                    <div class="foot-img foot-head">
+                        <h4>Contact</h4>
+                    </div>
+
+                    <div class="footer-cont">
+
+                        <div class="footer-list">
+                            <li><a href="#" class="f-link-2">123, Subhash Park Delhi - 11054 , Azad Colony</a></li>
+                            <li><a href="#" class="f-link-2">+91 997464759</a></li>
+                            <li><a href="#" class="f-link-2">info@example.com</a></li>
+                            <li>
+                                <div class="f-soc-icon-box">
+                                    <div class="f-soc-icon">
+                                        <ion-icon name="logo-facebook"></ion-icon>
+                                    </div>
+
+                                    <div class="f-soc-icon">
+                                        <ion-icon name="logo-twitter"></ion-icon>
+                                    </div>
+
+
+                                    <div class="f-soc-icon">
+                                        <ion-icon name="logo-vimeo"></ion-icon>
+                                    </div>
+
+                                    <div class="f-soc-icon">
+                                        <ion-icon name="logo-google"></ion-icon>
+                                    </div>
+                                </div>
+                            </li>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="footer-box">
+                    <div class="foot-img foot-head">
+                        <h4>Newsletter</h4>
+                    </div>
+
+                    <div class="footer-cont">
+
+                        <div class="footer-list">
+                            <li><a href="#" class="f-link-2">123, Subhash Park Delhi - 11054 , Azad Colony</a></li>
+
+                            <div class="f-subscribe-input-box">
+                                <input type="email" class="form-control" name="email" id="email"
+                                    placeholder="Enter your email" autocomplete="off" required>
+
+                                <div class="email-submit-button">
+                                    <input type="submit" name="submit" id="submit" value="Subscribe">
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+
+    </section>
+
+    <div class="last-f-cont">
+        <p>Castro © 2022 its designed created by Mr. Faiz Web Developer | All Right Reserved</p>
+    </div>
+
+    <div class="scroll-top-btun">
+        <i class="fa-solid fa-arrow-up-long"></i>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- ion-icons CDn  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- owl caoursel script  -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="./js/owl.carousel.js"></script>
+
+
+    <script>
+
+
+
+        // const dec_btun = document.querySelector('.minusbtun');
+        // const inc_btun =  document.querySelector('.addbtun');
+
+        const subtotalCart =  document.getElementById('subtotal');
+        const toal_cart =  document.getElementById('totalcart');
+        const shipping_fee =  document.getElementById('ShippingFee');
+        const coupon_box =  document.getElementById('coupon');
+        const err_thro = document.getElementById('err-thro');
+
+        const incFunc = (incdec, pricepro, pricebox) => {
+            const qtyBx = document.getElementById(incdec);
+            const pricemoney = document.getElementById(pricepro);
+            const prices = document.getElementById(pricebox);
+
+
+            if (qtyBx.value >= 8) {
+                qtyBx.value = 8
+
+            } else {
+                qtyBx.value = parseInt(qtyBx.value) + 1;
+
+                pricemoney.innerHTML = parseInt(pricemoney.innerHTML) + 750
+                prices.innerHTML = parseInt(prices.innerHTML) + 750
+                subtotalCart.innerHTML = parseInt(subtotalCart.innerHTML) + 750
+                toal_cart.innerHTML =  parseInt(subtotalCart.innerHTML) + parseInt(shipping_fee.innerHTML);
+
+
+            }
+
+        }
+
+        const decFunc = (incdec, pricepro, pricebox) => {
+            const qtyBx = document.getElementById(incdec);
+            const pricemoney = document.getElementById(pricepro);
+            const prices = document.getElementById(pricebox);
+
+
+
+
+
+            if (qtyBx.value <= 0) {
+                qtyBx.value = 0
+
+            } else {
+
+                qtyBx.value = parseInt(qtyBx.value) - 1;
+
+
+                pricemoney.innerHTML = parseInt(pricemoney.innerHTML) - 750
+                prices.innerHTML = parseInt(prices.innerHTML) - 750
+                subtotalCart.innerHTML = parseInt(subtotalCart.innerHTML) - 750
+                toal_cart.innerHTML =  parseInt(subtotalCart.innerHTML) + parseInt(shipping_fee.innerHTML);
+
+
+
+            }
+
+        }
+
+        const discountCode =  () => {
+
+            let totalCurrAmount =  parseInt(toal_cart.innerHTML) ;
+            if(coupon_box.value === 'Mashuk'){
+                let newtotalAmount =  totalCurrAmount - 1000 
+                toal_cart.innerHTML =  newtotalAmount ;
+                err_thro.innerHTML =  "Hurray !the code is valid." 
+            } else{
+                err_thro.innerHTML = "Sorry invalid code the actual code is Mashuk."
+            }
+            
+        }
+
+
+    </script>
+
+    <!-- index js file -->
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>
